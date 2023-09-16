@@ -1,8 +1,6 @@
-<!-- 
-header
-
-
- -->
+<head>
+    <meta charset="UTF-8">
+</head>
 ### Hi! Im Bagas Rayhan Sebastian, a self taught developer who's passionate about Backend Development
 
 
