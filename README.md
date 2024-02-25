@@ -20,5 +20,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-- 🌱 I’m currently learning Java, Python, Rest API
-- <p>127979</p> Im Study on Dian Nuswantoro University
+
+## 🛠 Skills
+Go, Gin,Php, Laravel, Java, Jwt
+
+
