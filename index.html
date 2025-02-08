@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/860ae798ee.js" crossorigin="anonymous"></script>
+
+    
+    <title>Portofolio | Bagas</title>
+</head>
+
+<body class="bg-dark">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg py-4 navbar-dark shadow-white sticky-top bg-dark">
+        <div class="container-fluid px-5">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <h1 class="navbar-brand fs-2 fw-bold" >Bagas Sebastian</span></h1>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-lg-0 fb-5">
+                    <li class="nav- item">
+                        <a class="nav-link active" href="#about">About</a>
+                    </li>
+                    <li class="nav- item">
+                        <a class="nav-link active" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="#lomba">Lomba</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="#kegiatan">Kegiatan</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- MAIN -->
+    <main class="bg-dark px-4">
+        <!-- ABOUT -->
+        <section class="py-5" id="about">
+            <div class="container-fluid px-5 background">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 d-flex justify-content-center image__profile">
+                        <img src="./assets/profile-img.png" alt="Bagas" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 my-auto">
+                        <h3 class="fs-4 fw-bold">Hi, I am Bagas👋</h3>
+                        <h1 class="fs-xl fw-bold">Back-End <span class="color-primary">Developer</span></h1>
+                        <p class="fs-6 text-justify">
+                            Mahasiswa Teknik Informatika dengan 2 tahun pengalaman backend development. Terampil membangun REST API skalabel, 
+                            menulis clean code dengan MySQL, Nginx, dan Go. Menguasai arsitektur pattern dan aktif di kompetisi IT seperti GEMASTIK. 
+                            Berkomitmen menghadirkan solusi teknologi efisien dan inovatif.
+                        </p>
+                        <div class="sosmed">
+                            <a title="instagram" href="https://www.instagram.com/bagasrayhan1103/" target="_blank" rel="noopener noreferrer">
+                                <div class="item__sosmed">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </a>
+                            <a title="linkedin" href="https://www.linkedin.com/in/bagas-sebastian-161588281?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKX1DFTy8TlmtxaCcLOEWCA%3D%3D" target="_blank" rel="noopener noreferrer">
+                                <div class="item__sosmed">
+                                    <i class="fa-brands fa-linkedin"></i>   
+                                </div>
+                            </a>
+                            <a title="whatsapp" href="https://wa.me/6282112897283?text=Hi,%20I'am%20Bagas!" target="_blank" rel="noopener noreferrer">
+                                <div class="item__sosmed">
+                                    <i class="fa-brands fa-whatsapp"></i>   
+                                </div>
+                            </a>
+                            <a title="github" href="https://github.com/BagasA11" target="_blank" rel="noopener noreferrer">
+                                <div class="item__sosmed">
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <p class="my-3 email">
+                            <i class="fa fa-envelope" aria-hidden="true"></i> 
+                            <a href="mailto:111202214715@mhs.dinus.ac.id" target="_blank" rel="noopener noreferrer">
+                                111202214715@mhs.dinus.ac.id
+                            </a>
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="py-xl skill" id="skills">
+            <div class="container-fluid px-5">
+                <div class=" d-flex gap-2">
+                    <hr class="line-primary">
+                    <h5 class="fs-3 fw-bold">Skills</h5>
+                </div>
+                <p class="fs-6">Berikut adalah beberapa skill yang saya kuasai</p>
+            </div>
+            <div class="container-fluid px-5 py-4">
+                <div class="row gap-y-3" id="card-skill">
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="py-xl " id="projects">
+            <div class="container-fluid px-5 mb-4">
+                <div class=" d-flex gap-2 mb-5">
+                    <hr class="line-primary">
+                    <h5 class="fs-3 fw-bold">Projects</h5>
+                </div>
+            </div>
+            <div class="container-fluid px-5">
+                <div class="row gap-2 justify-content-center" id="card-portofolio">
+                </div>
+            </div>
+        </section>
+
+        <!-- LOMBA -->
+        <section class="py-xl " id="lomba">
+            <div class="container-fluid px-5 mb-4">
+                <div class=" d-flex gap-2 mb-5">
+                    <hr class="line-primary">
+                    <h5 class="fs-3 fw-bold">Lomba</h5>
+                </div>
+            </div>
+            <div class="container-fluid px-5">
+                <div class="row gap-2  justify-content-center" id="card-lomba">
+                </div>
+            </div>
+        </section>
+
+        <!-- KEGIATAN -->
+        <section class="py-xl " id="kegiatan">
+            <div class="container-fluid px-5 mb-4">
+                <div class=" d-flex gap-2 mb-5">
+                    <hr class="line-primary">
+                    <h5 class="fs-3 fw-bold">Kegiatan</h5>
+                </div>
+            </div>
+            <div class="container-fluid px-5">
+                <div class="row gap-y-4  justify-content-center" id="card-kegiatan">
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="py-3">
+        <div class="container-fluid px-5">
+            <div class="row justify-content-center align-items-center">
+                <p class="fs-6 text-center">
+                    &copy; 2025 Bagas Sebastian. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+    <script src="./scripts/skills.js"></script>
+    <script src="./scripts/projects.js"></script>    
+    <script src="./scripts/lomba.js"></script>
+    <script src="./scripts/kegiatan.js"></script>
+
+</body>
+</html>
