@@ -14,9 +14,9 @@ const dataSkill = [{
     level: 'Intermediate'
 },
 {
-    icon: './assets/icons/php.svg',
-    title: 'PHP',
-    level: 'Intermediate'
+    icon: './assets/icons/laravel-1-logo.svg',
+    title: 'PHP-Laravel',
+    level: 'Certified'
 },
 {
     icon: './assets/icons/nginx.svg',
@@ -27,6 +27,11 @@ const dataSkill = [{
     icon: './assets/icons/mysql.svg',
     title: 'MySQL',
     level: 'Intermediate'
+},
+{
+    icon: './assets/icons/mongodb.svg',
+    title: 'MongoDB',
+    level: 'Beginner'
 },
 {
     icon: './assets/icons/docker.svg',
@@ -47,6 +52,11 @@ const dataSkill = [{
     icon: './assets/icons/ssl.svg',
     title: 'SSL (Secure Socket Layer)',
     level: 'Intermediate'
+},
+{
+    icon: './assets/icons/rabbitmq-svgrepo-com.svg',
+    title: 'Rabbit MQ',
+    level: 'Beginner'
 },
 ];
 

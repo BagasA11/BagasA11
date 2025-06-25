@@ -35,6 +35,15 @@ const dataLomba = [
         penyelenggara: 'HMTI Udinus',
         direct: ''
     },
+    {
+        image: './assets/lomba/bagas-technoscape.png',
+        title: 'Hackathon Technoscape BNCC',
+        description: 'Merancang api platform as a service (PAAS) untuk otomatisasi rekam medis klaim BPJS menggunakan OCR',
+        hasil: '',
+        jangkauan: 'Nasional',
+        penyelenggara: 'BNCC Universitas Bina Nusantara',
+        direct: ''
+    },
 ];
 
 

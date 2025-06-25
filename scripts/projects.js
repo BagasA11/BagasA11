@@ -27,6 +27,13 @@ const dataPortofolioWeb = [
         github: 'https://github.com/BagasA11/kelompok6-fisika2023',
         direct: ''
     },
+    {
+        image: './assets/projects/appointment-system-laravel.jpg',
+        title: 'Medical Appointment System',
+        description: 'Website Manajemen janji antara dokter dan pasien.',
+        github: 'https://github.com/BagasA11/wd-bengkod',
+        direct: ''
+    },
 ];
 
 
